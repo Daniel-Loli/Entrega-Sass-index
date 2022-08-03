@@ -1,0 +1,23 @@
+header{
+    background-color: blueviolet;
+    list-style: none;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    li{
+        font-size: 20px;
+        a{
+            color: $colorfuente;
+            text-decoration: none;
+            &:hover{
+                color: $colorfuente;
+                text-decoration: underline;
+            }
+        }
+    }
+}

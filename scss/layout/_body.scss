@@ -1,0 +1,20 @@
+body{
+    list-style: none;
+    padding: auto;
+    font-size: 25px;
+    display:inline-block;
+    width: 100%;
+    background-color: blueviolet;
+    li{
+        background-color: aqua;
+        font-size: 20px;
+        a{
+            color: $colorfuente;
+            text-decoration: none;
+            &:hover{
+                color: $colorfuente;
+                text-decoration: underline;
+            }
+        }
+    }
+}
