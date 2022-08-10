@@ -1,3 +1,7 @@
+*{
+    margin : 0;
+    padding : 0;
+}
 header{
     background-color: blueviolet;
     list-style: none;
@@ -6,9 +10,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    width: 100%;
-    margin: 0 auto;
+    @include medidas;
     li{
         font-size: 20px;
         a{

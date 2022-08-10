@@ -1,11 +1,8 @@
-footer{
-    background-color: #333;
-    padding: 20px;
-}
 h2{
     font-size: 20px;
     text-align: center;
     color: #00bcd4;
+    font-family: "Arial"; 
 }
 h3{
     @extend h2;
